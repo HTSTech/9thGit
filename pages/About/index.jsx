@@ -38,7 +38,7 @@
     return (
       <div id='AboutID'>
         <Header />
-        <body id="igsx"><div id="irr8">About</div></body>
+        <body id="igsx"><div id="irr8">About Page</div></body>
         <style>
           {"* { box-sizing: border-box; } body {margin: 0;}#irr8{padding:10px;}"}
         </style>
