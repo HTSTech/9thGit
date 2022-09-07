@@ -1,8 +1,8 @@
 
   import { useEffect } from 'react';
   import axios from 'axios';
-  import Header from "./Header/index";
-  import Footer from "./Footer/index";
+  import Header from "../Header/index";
+  import Footer from "../Footer/index";
   
   export default function Home() {
   
@@ -38,7 +38,7 @@
     return (
       <div id='HomeID'>
         <Header />
-        <body id="igsx"><div id="irr8">Home</div></body>
+        <body id="igsx"><div id="irr8">Home Page2</div></body>
         <style>
           {"* { box-sizing: border-box; } body {margin: 0;}#irr8{padding:10px;}"}
         </style>
