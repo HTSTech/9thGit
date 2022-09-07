@@ -35,9 +35,9 @@
   
     return (
       <div id='HeaderID'>
-        <body id="igsx"><div id="irr8">Header Page 2</div></body>
+        <body id="igsx"></body>
         <style>
-          {"* { box-sizing: border-box; } body {margin: 0;}#irr8{padding:10px;}"}
+          {"* { box-sizing: border-box; } body {margin: 0;}"}
         </style>
       </div>
     )
