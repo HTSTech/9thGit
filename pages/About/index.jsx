@@ -8,7 +8,7 @@
   
     useEffect(() => {
       //getData();
-      eval()
+      eval(``)
     }, [])
    
     async function getData() {
