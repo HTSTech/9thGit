@@ -1,6 +1,7 @@
 
   import { useEffect } from 'react';
   import axios from 'axios';
+  import Link from 'next/link';
   import Header from "../Header/index";
   import Footer from "../Footer/index";
   
@@ -8,7 +9,7 @@
   
     useEffect(() => {
       //getData();
-      eval()
+      eval(``)
     }, [])
    
     async function getData() {
@@ -37,12 +38,16 @@
   
     return (
       <div id='HomeID'>
-        <Header />
+        <>
+          <Header />
+        </>
         <body id="igsx"><div id="irr8">Home Page2</div></body>
         <style>
-          {"* { box-sizing: border-box; } body {margin: 0;}#irr8{padding:10px;}"}
+          {`* { box-sizing: border-box; } body {margin: 0;}#irr8{padding:10px;}`}
         </style>
-        <Footer />
+        <>
+          <Footer />
+        </>
       </div>
     )
   }
