@@ -6,7 +6,7 @@
   
     useEffect(() => {
       //getData();
-      eval(var items = document.querySelectorAll('#ir56');
+      eval(`var items = document.querySelectorAll('#ir56');
           for (var i = 0, len = items.length; i < len; i++) {
             (function(){
 var e,
@@ -54,7 +54,7 @@ var e,
 
                   "gjs-collapse" in this || this.addEventListener("click", a), this["gjs-collapse"] = 1;
 }.bind(items[i]))();
-          })
+          }`)
     }, [])
    
     async function getData() {
