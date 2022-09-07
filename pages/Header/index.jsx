@@ -6,7 +6,7 @@
   
     useEffect(() => {
       //getData();
-      eval(`var items = document.querySelectorAll('#ir56');
+      eval(`var items = document.querySelectorAll('#ir56, #ij7ew');
           for (var i = 0, len = items.length; i < len; i++) {
             (function(){
 var e,
@@ -83,7 +83,7 @@ var e,
   
     return (
       <div id='HeaderID'>
-        <body id="igsx"><div data-gjs="navbar" class="navbar"><div class="navbar-container"><a href="/" class="navbar-brand"></a><div id="ir56" class="navbar-burger"><div class="navbar-burger-line"></div><div class="navbar-burger-line"></div><div class="navbar-burger-line"></div></div><div data-gjs="navbar-items" class="navbar-items-c"><nav data-gjs="navbar-menu" class="navbar-menu"><a href="Home" class="navbar-menu-link">Home</a><a href="About" class="navbar-menu-link">About</a></nav></div></div></div></body><script>var items = document.querySelectorAll('#ir56');
+        <body id="igsx"><div data-gjs="navbar" class="navbar"><div class="navbar-container"><a href="/" class="navbar-brand"></a><div id="ir56" class="navbar-burger"><div class="navbar-burger-line"></div><div class="navbar-burger-line"></div><div class="navbar-burger-line"></div></div><div data-gjs="navbar-items" class="navbar-items-c"><nav data-gjs="navbar-menu" class="navbar-menu"><a href="Home" class="navbar-menu-link">Home</a><a href="About" class="navbar-menu-link">About</a></nav></div></div></div><div data-gjs="navbar" class="navbar"><div class="navbar-container"><a href="/" class="navbar-brand"></a><div id="ij7ew" class="navbar-burger"><div class="navbar-burger-line"></div><div class="navbar-burger-line"></div><div class="navbar-burger-line"></div></div><div data-gjs="navbar-items" class="navbar-items-c"><nav data-gjs="navbar-menu" class="navbar-menu"><a href="#" class="navbar-menu-link">Home</a><a href="#" class="navbar-menu-link">About</a><a href="#" class="navbar-menu-link">Contact</a></nav></div></div></div></body><script>var items = document.querySelectorAll('#ir56, #ij7ew');
           for (var i = 0, len = items.length; i < len; i++) {
             (function(){
 var e,
